@@ -6,17 +6,13 @@ flag_intervalo = False
 flag_par = False
 flag_regras = False
 
-def classificar_numero():
-    if numero % 2 == 0 and numero in range(10,50):
-        flag_regras = True
-        return print(f'Atende ás duas regras: {flag_regras}')
+if numero in range(10,50):
+    flag_intervalo = True
 
-    elif numero in range(10,50):
-        flag_intervalo = True
-        return print(f'Está no intervalo: {flag_intervalo}')
+if numero % 2 == 0:
+    flag_par = True
 
-    elif numero % 2 == 0:
-        flag_par = True
-        return print(f'É par: {flag_par}')
+if numero % 2 == 0 and numero in range(10,50):
+    flag_regras = True
 
-print(classificar_numero())
+print(f'Está no intervalo: {flag_intervalo} \nÉ par: {flag_par} \nAtende às duas regras: {flag_regras}')
