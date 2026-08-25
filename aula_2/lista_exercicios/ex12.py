@@ -14,6 +14,7 @@ def potencia(base, expoente):
 base = float(input("Digite um número: "))
 expoente = int(input("Digite um número(maior ou igual a 0): "))
 
-potencia = potencia(base, expoente)
+if expoente >= 0:
+    potencia = potencia(base, expoente)
 
-print(potencia)
+    print(potencia)

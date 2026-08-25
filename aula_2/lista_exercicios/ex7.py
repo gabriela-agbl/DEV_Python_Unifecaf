@@ -4,9 +4,10 @@ n = int(input("Digite um número(maior ou igual a 0): "))
 
 acumulador = 1
 
-for i in range(1,n+1):
-    acumulador *= i
+if n >= 0:
+    for i in range(1,n+1):
+        acumulador *= i
 
-    print(i)
+        print(i)
 
 print(acumulador)
