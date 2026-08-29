@@ -24,3 +24,5 @@ if quantidade >= 1:
 
         # Imprimindo o resultado do acumulador a cada passo
         print(acumulador)
+
+# MICRODEFESA: A quantidade controla quantas repetições o laço faz, e não o valor final, que depende do acumulador, inicio e passo

@@ -18,3 +18,5 @@ if n >= 0:
 
 # Imprimindo valor final do acumulador(Valor do n!)
 print(acumulador)
+
+# MICRODEFESA: Iniciar o acumulador em 0 zeraria o resultado, pois, qualquer multiplicação por 0 dá 0, por isso começa em 1

@@ -21,3 +21,5 @@ if limite >= 1 and divisor != 0:
 
 # Imprimindo a soma final do acumulador
 print(f'Soma: {acumulador}')
+
+# MICRODEFESA: O acumulador precisa ter um valor inicial antes do for para realizar a soma de forma incremental, se atribuido dentro do laço, sempre vai começar com o valor definido, prejudicando o resultado final

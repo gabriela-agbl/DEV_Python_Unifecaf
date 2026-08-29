@@ -29,3 +29,5 @@ if expoente >= 0:
 
     # Imprimindo a potencia(Como foi usado return dentro da função, ao imprimir ela vai retornar o valor que foi retornado)
     print(potencia)
+
+# MICRODEFESA: O resultado inicial precisa ser 1 para que possa realizar as multiplicações e, no caso de expoente 0, retornar o resultado 1(já que no while a multiplicação apenas ocorre se o contador(1) for menor ou igual ao expoente)

@@ -22,3 +22,5 @@ if numero % 2 == 0 and numero in range(10,50):
 
 # Imprimindo os valores de cada flag(True ou False)
 print(f'Está no intervalo: {flag_intervalo} \nÉ par: {flag_par} \nAtende às duas regras: {flag_regras}')
+
+# MICRODEFESA: O and exige que as duas condições sejam verdadeiras ao mesmo tempo, já o or só precisa que uma seja verdadeira para funcionar, no caso da última regra o and deve ser usado, já que exige que as outras duas regras sejam atendidas

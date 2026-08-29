@@ -24,3 +24,5 @@ if n > 1:
     elif contador > 2:
         # Imprimindo o resultado do n como não primo
         print(f"{n} não é primo")
+
+# MICRODEFESA: O 1 e o próprio número contam como divisores, precisam ser considerados para que a regra funcione.

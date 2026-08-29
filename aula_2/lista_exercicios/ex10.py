@@ -35,3 +35,5 @@ resultado = classificar_numero(numero)
 
 # Imprimindo o resultado(Como foi usado return dentro da função, ao imprimir ela vai retornar o valor que atendeu uma das condições)
 print(resultado)
+
+# MICRODEFESA: O 0 não é nem positivo nem negativo, por isso precisa de uma definição própria

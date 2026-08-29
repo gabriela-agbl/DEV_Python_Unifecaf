@@ -49,3 +49,5 @@ if resultado == None:
 else:
     # Imprimindo o resultado(Como foi usado return dentro da função, ao imprimir ela vai retornar o valor que atendeu uma das condições)
     print(resultado)
+
+# MICRODEFESA: Imprimir mostra o resultado na tela, já retornar devolve o resultado para quem chamou a função

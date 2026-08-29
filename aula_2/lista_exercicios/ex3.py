@@ -104,3 +104,5 @@ elif c == b and a > b:
 
 # Imprimindo a classificação
 print(classificacao)
+
+# MICRODEFESA: a > b and a > c falha em empates(4,9,9), pois, nesse caso está falando que a é maior que os outros 2, então não seria possível ter um empate, seria preciso igualar o a com outro valor

@@ -29,3 +29,5 @@ elif media >= 9.0:
 
 # Imprimindo a média e sua classificação
 print(f"A média foi: {media:2f}. A classificação foi: {classificacao}")
+
+# MICRODEFESA: A ordem importa, pois, as condições elif funcionam de forma sequencial, ou seja, ao trocar essa ordem(que nesse caso está em ordem crescente) pode prejudicar o resultado final(pode chegar em uma condição errada antes da correta)

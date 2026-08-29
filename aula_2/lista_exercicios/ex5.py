@@ -20,3 +20,5 @@ if n >= 0:
         # Imprime o próprio número caso a condição anterior não tenha sido atendida
         else:
             print(n)
+
+# MICRODEFESA: A atribuição n = n - 1 aproxima o laço do fim, reduzindo n a cada repetição até a condição n > 0 deixar de ser verdadeira
