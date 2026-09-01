@@ -22,8 +22,8 @@ Crie deliberadamente um `Pedido` cujo `total` seja `"100.00"` e observe o Pylanc
 Execute `runtime_trap.py` e explique por que `TypedDict` não valida automaticamente dados externos.
 
 ## Parte F — Review
-**CONTRACT**  
-**STATIC EVIDENCE**  
+**CONTRACT** A função recebe pedido e retorna um float(total do pedido) ou nada(None)  
+**STATIC EVIDENCE** Antes da execução, o total do pedido no dicionário está como String, mas foi definido no Type Hint como float 
 **RUNTIME LIMIT**  
 **DECISION: KEEP / REVISE**  
 **WHY** — até 5 linhas  

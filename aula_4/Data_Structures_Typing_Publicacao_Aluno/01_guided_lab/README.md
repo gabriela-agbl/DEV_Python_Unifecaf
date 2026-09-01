@@ -23,8 +23,10 @@ Adicione type hints à função `buscar_ativos`.
 Abra `guided_pylance_demo.py`, descomente `usuario_invalido` e observe o Pylance.
 
 Responda:
-- qual incompatibilidade foi sinalizada?
-- o programa precisou executar?
+- qual incompatibilidade foi sinalizada? 
+Imcompatibilidade no tipo do campo idade
+- o programa precisou executar? 
+Com a execução não vai apresentar erro, foi identificado antes da execução
 
 ## Parte E — Limit
 O que o typing ainda não consegue garantir?
