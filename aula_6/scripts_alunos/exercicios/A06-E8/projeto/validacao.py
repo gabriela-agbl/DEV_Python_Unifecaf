@@ -9,6 +9,6 @@ def registro_valido(registro: dict[str, object]) -> bool:
 
     tem_id = identificador is not None
     tem_nome = texto_preenchido(nome)
-    tem_categoria = LACUNA
+    tem_categoria = texto_preenchido(categoria)
 
     return tem_id and tem_nome and tem_categoria

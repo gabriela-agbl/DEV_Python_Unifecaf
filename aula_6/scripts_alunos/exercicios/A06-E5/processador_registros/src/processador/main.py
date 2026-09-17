@@ -1,10 +1,10 @@
-from processador.LACUNA_1 import carregar_registros
-from processador.LACUNA_2 import calcular_total
+from processador.io import carregar_registros
+from processador.servico import calcular_total
 
 
 def main() -> None:
-    registros = LACUNA_3("data/entrada.json")
-    total = LACUNA_4(registros)
+    registros = carregar_registros("data/entrada.json")
+    total = calcular_total(registros)
     print(f"Total: {total:.2f}")
 
 

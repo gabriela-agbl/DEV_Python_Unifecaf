@@ -1,8 +1,8 @@
 def registro_valido(registro: dict[str, object]) -> bool:
-    identificador = registro.LACUNA_1("id")
-    nome = registro.LACUNA_2("nome")
+    identificador = registro.get("id")
+    nome = registro.get("nome")
 
-    tem_id = identificador is not LACUNA_3
-    tem_nome = isinstance(nome, str) and bool(nome.LACUNA_4())
+    tem_id = identificador is not None
+    tem_nome = isinstance(nome, str) and bool(nome.strip())
 
     return tem_id and tem_nome
