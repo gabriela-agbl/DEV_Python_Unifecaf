@@ -4,13 +4,11 @@ from validacao import validar_quantidade
 
 class TestValidacao(unittest.TestCase):
     def test_comum(self):
-        # A07-U1: verificar a entrada 8 com self.assertEqual.
-        raise NotImplementedError("complete A07-U1")
+        self.assertEqual(validar_quantidade(8), True)
 
     def test_limite(self):
-        # A07-U2: verificar a entrada 0 com self.assertEqual.
-        raise NotImplementedError("complete A07-U2")
+        self.assertEqual(validar_quantidade(0), True)
 
     def test_invalido(self):
-        # A07-U3: verificar a entrada -1 com self.assertRaises.
-        raise NotImplementedError("complete A07-U3")
+        with self.assertRaises(ValueError):
+            validar_quantidade(-1)
